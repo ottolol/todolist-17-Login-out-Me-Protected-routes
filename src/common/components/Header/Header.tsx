@@ -26,7 +26,7 @@ export const Header = () => {
   }
 
   const signOut = () => {
-    dispatch(logoutTC)
+    dispatch(logoutTC())
   }
 
   return (
